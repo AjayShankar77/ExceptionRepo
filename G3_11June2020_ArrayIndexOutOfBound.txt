@@ -1,0 +1,9 @@
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 11
+	at day11Work.MovieManager.<init>(MovieManager.java:14)
+	at day11Work.MovieManager.main(MovieManager.java:195)
+
+
+When trying to access an index of an array which is not inside the boundry of the index size
+For example
+Movie[] movies = new Movie[10]//Size of teh array is 10 and index is from 0 to 9
+movies[10].getId();//there is no posibilty of the index 10 so it will raise the "java.lang.ArrayIndexOutOfBoundsException".

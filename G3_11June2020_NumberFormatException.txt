@@ -1,0 +1,12 @@
+Exception in thread "main" java.lang.NumberFormatException: For input string: "Hello"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at day13Work.CollectionExample.sumCollection(CollectionExample.java:35)
+	at day13Work.CollectionExample.main(CollectionExample.java:44)
+
+
+When we try to convert string that is made of char into number
+example
+"100" can be converted but
+"Hello" cannot be converted to number.
